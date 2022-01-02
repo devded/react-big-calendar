@@ -1,5 +1,5 @@
 {
-  "name": "cal-app",
+  "name": "react-big-calendar",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
