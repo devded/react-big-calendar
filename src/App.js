@@ -23,19 +23,19 @@ const events = [
     title: "Big Meeting",
     allDay: true,
     start: new Date("2022-01-23"),
-    end: new Date("2022-01-24"),
+    end: new Date("2022-01-23"),
     detail: "Hi Holla",
     desc: "Power lunch",
   },
   {
     title: "Vacation",
-    start: new Date(2021, 6, 7),
-    end: new Date(2021, 6, 10),
+    start: new Date("2022-01-24"),
+    end: new Date("2022-01-24"),
   },
   {
     title: "Conference",
-    start: new Date(2021, 6, 20),
-    end: new Date(2021, 6, 23),
+    start: new Date("2022-01-25"),
+    end: new Date("2022-01-25"),
   },
 ];
 
