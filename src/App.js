@@ -24,8 +24,10 @@ const events = [
     {
         title: "Big Meeting",
         allDay: true,
-        start: new Date(2021, 6, 0),
-        end: new Date(2021, 6, 0),
+        start: new Date("2022-01-23"),
+        end: new Date("2022-01-24"),
+        detail: "Hi Holla",
+        desc: 'Power lunch'
     },
     {
         title: "Vacation",
@@ -59,7 +61,7 @@ function App() {
                     Add Event
                 </button>
             </div>
-            <Calendar localizer={localizer} events={allEvents} startAccessor="start" endAccessor="end" style={{ height: 500, margin: "50px" }} />
+            <Calendar localizer={localizer} events={allEvents} startAccessor="start" endAccessor="end" style={{ height: 500, margin: "50px" }}  onSelectEvent={event => alert(event.detail)} />
         </div>
     );
 }
