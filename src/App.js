@@ -25,17 +25,18 @@ const events = [
     start: new Date("2022-01-23"),
     end: new Date("2022-01-23"),
     detail: "Hi Holla",
-    desc: "Power lunch",
   },
   {
     title: "Vacation",
     start: new Date("2022-01-24"),
     end: new Date("2022-01-24"),
+    detail: "Bye Holla",
   },
   {
     title: "Conference",
     start: new Date("2022-01-25"),
     end: new Date("2022-01-25"),
+    detail: "Holla",
   },
 ];
 
